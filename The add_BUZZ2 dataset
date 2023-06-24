@@ -5,11 +5,7 @@ different weather conditions in June and July 2021. This was the summertime in V
 degrees Celsius.  But there were also some cool or rainy days in which the temperature ranged from 29 to 33 degrees Celsius. Our beehives were placed next to a 
 construction site, and there were noises like the vibration or the sound of machinery under construction. After collecting, the obtained signals were cut into 
 2-second samples with overlapping of 1/5s. The added audio includes 2600 samples and is split into the training set, the testing set, and the validation set, 
-depending on the users and situations. Finally, we designed two schemes for add_BUZZ2 as follows:
-
-Firstly, we picked up randomly 200 bee buzzing samples (train_200) and put them into the training set of BUZZ2, while the number of bee samples added to 
-the testing set and the validation set is 4 (test_800) and 8 times higher, i.e., 800 samples and 1600 samples, respectively. 
-This scheme corresponds to the case when there are very few new samples for training the ML models.
+depending on the users and situations. 
 
 To download this dataset, please click the following link:
 
