@@ -1,10 +1,11 @@
-The new dataset is called add_BUZZ2. The information about the sources added and the detail of the new dataset is provided below. 
-Firstly, we utilized the INMP441 I2S Omnidirectional Microphones as sound sensors to capture bee audio from the environment. 
-The bee sounds were collected at two different beehives on different days in different weather conditions in June and July 2021. 
-This was summer time in Vietnam, and it was quite hot: The outdoor temperature fluctuated from 34 to 39 degrees Celsius. 
-But there were also some cool or rainy days in which the temperature ranged from 29 to 33 degrees Celsius. Our beehives were placed 
-next to a construction site, and there was the noise like the vibration or the sound of machinery under construction. 
-After collecting, the obtained signals were cut into 2-second samples with overlapping of 1/5s. Finally, we designed two schemes for add_BUZZ2 as follows:
+The dataset add_BUZZ2 is extended from the BUZZ2 dataset introduced in “Kulyukin et al. Toward Audio Beehive Monitoring: Deep Learning vs. Standard Machine 
+Learning in Classifying Beehive Audio Samples. Applied Sciences, 8(9):1573, September 2018”. The new bee buzzing sounds added to the dataset are recorded as follows. 
+Firstly, the  INMP441 I2S Omnidirectional Microphones were set up inside the beehives to capture bee audio. The data were collected at two different beehives in 
+different weather conditions in June and July 2021. This was the summertime in Vietnam, which was quite hot. The outdoor temperature fluctuated from 34 to 39 
+degrees Celsius.  But there were also some cool or rainy days in which the temperature ranged from 29 to 33 degrees Celsius. Our beehives were placed next to a 
+construction site, and there were noises like the vibration or the sound of machinery under construction. After collecting, the obtained signals were cut into 
+2-second samples with overlapping of 1/5s. The added audio includes 2600 samples and is split into the training set, the testing set, and the validation set, 
+depending on the users and situations. Finally, we designed two schemes for add_BUZZ2 as follows:
 
 Firstly, we picked up randomly 200 bee buzzing samples (train_200) and put them into the training set of BUZZ2, while the number of bee samples added to 
 the testing set and the validation set is 4 (test_800) and 8 times higher, i.e., 800 samples and 1600 samples, respectively. 
